@@ -1,0 +1,10 @@
+GNAT Programming Studio或GPS（過去稱為GNAT Programming System）是一套自由授權、支援多種程式語言的整合開發環境，並可在Linux、Windows及Solaris（SPARC機器的版本）等作業系統上使用。GPS的圖像化使用者介面是呼用GTK+函式庫 來實現，此套整合開發環境是由AdaCore公司以MGPL授權方式發表。
+GPS並不包含編譯器，取而代之的是使用GNU Compiler Collection來產生可執行的程式碼。
+新近的公開發表版：3.1.0，支援多種程式語言，包括Ada、C、C++、Fortran 90、Pascal、Perl、Python及Tcl。此外也支援如下的檔案型態及格式Autoconf、Awk、Changelog、M4、Makefile、GNAT Project file、Shell script、Texinfo。
+更新的3.1.3版也已經開始供應，可以讓用戶透過CVS進行一般性的錯誤修正。
+現在4.0.0版的開發也已經告一段落，新版（GPS 4）中最令人感到興趣的新功能是讓平台具有「遠端編輯」、「遠端除錯」能力，這在過去的GPS並沒有原生性提供。
+ Anjuta ·  Code::Blocks ·  CodeLite ·  Dev-C++ ·  Eclipse ·  Geany ·  GNAT Programming Studio ·  KDevelop ·  MonoDevelop ·  NetBeans · QDevelop · Qt Creator ·  wxDev-C++
+ Visual Studio Express ·  Pelles C
+
+Sun Studio ·  Turbo C++ Explorer · Borland Turbo C ·  Xcode
+ C++ Builder ·  Microsoft Visual C++ ·  Turbo C++ Professional

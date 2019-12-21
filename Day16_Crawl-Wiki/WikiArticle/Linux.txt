@@ -1,0 +1,66 @@
+Linux（i/ˈlɪnəks/ LIN-əks）是一種自由和開放原始碼的類UNIX作業系統。該作業系統的核心由林納斯·托瓦茲在1991年10月5日首次發布[5][6]，在加上使用者空間的應用程式之後，成為Linux作業系統。Linux也是自由軟體和開放原始碼軟體發展中最著名的例子。只要遵循GNU 通用公共許可證（GPL），任何個人和機構都可以自由地使用Linux的所有底層原始碼，也可以自由地修改和再發布。大多數Linux系統還包括像提供GUI的X Window之類的程式。除了一部分專家之外，大多數人都是直接使用Linux 發行版，而不是自己選擇每一樣組件或自行設定。
+Linux嚴格來說是單指作業系統的核心，因作業系統中包含了許多用戶圖形介面和其他實用工具。如今Linux常用來指基於Linux的完整作業系統，核心則改以Linux核心稱之。由於這些支援用戶空間的系統工具和庫主要由理察·斯托曼於1983年發起的GNU計劃提供，自由軟體基金會提議將其組合系統命名為GNU/Linux[7][8]，但Linux不屬於GNU計劃，這個名稱並沒有得到社群的一致認同。
+Linux最初是作為支援英特爾x86架構的個人電腦的一個自由作業系統。目前Linux已經被移植到更多的電腦硬體平台，遠遠超出其他任何作業系統。Linux可以執行在伺服器和其他大型平台之上，如大型電腦和超級電腦。世界上500個最快的超級電腦90％以上執行Linux套件或變種[9]，包括最快的前10名超級電腦執行的都是基於Linux核心的作業系統[10]。Linux也廣泛應用在嵌入式系統上，如手機（Mobile Phone）、平板電腦（Tablet）、路由器（Router）、電視（TV）和電子遊戲機等。在行動裝置上廣泛使用的Android作業系統就是建立在Linux核心之上。
+通常情況下，Linux被打包成供個人電腦和伺服器使用的Linux套件，一些流行的主流Linux發布版，包括Debian（及其衍生版本Ubuntu、Linux Mint）、Fedora（及其相關版本Red Hat Enterprise Linux、CentOS）和openSUSE等。Linux套件包含Linux核心和支撐核心的實用程式和庫，通常還帶有大量可以滿足各類需求的應用程式。個人電腦使用的Linux套件通常包含X Window和一個相應的桌面環境，如GNOME或KDE。桌面Linux作業系統常用的應用程式，包括Firefox網頁瀏覽器、LibreOffice辦公軟體、GIMP圖像處理工具等。由於Linux是自由軟體，任何人都可以建立一個符合自己需求的Linux套件。
+根據托瓦茲的說法，Linux的發音和「Minix」是押韻的。
+「Li」中「i」的發音類似於「Minix」中「i」的發音，而「nux」中「u」的發音類似於英文單詞「profess」中「o」的發音。依照國際音標應該是['linэks][ˈlɪnəks]。[11]
+此外有一份林納斯·托瓦茲本人說話的錄音，錄音內容為「Hello, this is Linus Torvalds, and I pronounce Linux as Linux」，也表明了作者對單詞的讀法。（i/ˈlɪnəks/ LIN-əks）
+UNIX作業系統（英語：UNIX），是美國AT&T公司貝爾實驗室於1969年完成的作業系統。最早由肯·湯普遜（Ken Thompson），丹尼斯·里奇（Dennis Ritchie），道格拉斯·麥克羅伊（Douglas McIlroy），和喬伊·歐桑納於1969年在AT&T貝爾實驗室開發。於1971年首次發布，最初是完全用組合語言編寫。後來，在1973年用一個重要的開拓性的方法，Unix被丹尼斯·里奇用程式語言C（核心和I/O例外）重新編寫[12]。高階語言編寫的作業系統具有更佳的相容性，能更容易地移植到不同的電腦平台。
+1983年，理察·馬修·斯托曼創立GNU計劃。這個計劃有一個目標，是為了發展一個完全自由的類Unix作業系統。自1984年發起這個計劃以來[13]，在1985年，理察·馬修·斯托曼發起自由軟體基金會並且在1989年撰寫GPL。1990年代早期，GNU開始大量地產生或收集各種系統所必備的元件，像是——函式庫、編譯器、偵錯工具、文字編輯器，以及一個Unix的使用者介面（Unix shell）——但是像一些底層環境，如硬體驅動、守護進程、系統核心（kernel）仍然不完整和陷於停頓，GNU計劃中是在Mach微核心的架構之上開發系統核心，也就是所謂的GNU Hurd，但是這個基於Mach的設計異常複雜，發展進度則相對緩慢。[14]林納斯·托瓦茲曾說過如果GNU核心在1991年時可以用，他不會自己去寫一個。[15]
+386BSD涉及的法律問題直到1992年還沒有解決，NetBSD和FreeBSD是386BSD的後裔，早於Linux。林納斯·托瓦茲曾說，當時如果有可用的386BSD，他就可能不會編寫Linux。[16]
+MINIX是一個輕量小型並採用微核心(Micro-Kernel)架構的類Unix作業系統，是安德魯·斯圖爾特·塔能鮑姆為在電腦科學用作教學而設計的。
+1991年，林納斯·托瓦茲在赫爾辛基大學上學時，對作業系統很好奇[17]。他對MINIX只允許在教育上使用很不滿（在當時MINIX不允許被用作任何商業使用），於是他便開始寫他自己的作業系統，這就是後來的Linux核心。
+林納斯·托瓦茲開始在MINIX上開發Linux核心，為MINIX寫的軟體也可以在Linux核心上使用。[18]後來使用GNU軟體代替MINIX的軟體，因為使用從GNU系統來的原始碼可以自由使用，這對Linux的發展有益。使用GNU GPL協定的原始碼可以被其他項目所使用，只要這些項目使用同樣的協定發布。為了讓Linux可以在商業上使用，林納斯·托瓦茲決定更改他原來的協定（這個協定會限制商業使用），以GNU GPL協定來代替。[19]之後許多開發者致力融合GNU元素到Linux中，做出一個有完整功能的、自由的作業系統。[14]
+Linux的第一個版本在1991年9月被大學FTP server管理員Ari Lemmke發布在Internet上，最初Torvalds稱這個核心的名稱為"Freax"，意思是自由（"free"）和奇異（"freak"）的結合字，並且附上"X"這個常用的字母，以配合所謂的類Unix的系統。但是FTP伺服器管理員嫌原來的命名「Freax」的名稱不好聽，把核心的稱呼改成「Linux」，當時僅有10000行程式碼，仍必須執行於Minix作業系統之上，並且必須使用硬碟啟動；隨後在10月份第二個版本（0.02版）發布，同時這位芬蘭赫爾辛基的大學生在comp.os.minix上發布一則訊息
+Hello everybody out there using minix-
+I'm doing a (free) operation system (just a hobby,
+won't be big and professional like gnu) for 386(486) AT clones.
+Linux的標誌和吉祥物是一隻名字叫做Tux的企鵝，標誌的由來有一說是因為Linus在澳洲時曾被一隻動物園裡的企鵝咬了一口，便選擇企鵝作為Linux的標誌，但更容易被接受的說法是：企鵝代表南極，而南極又是全世界所共有的一塊陸地。這也就代表Linux是所有人的Linux。
+1994年3月，Linux1.0版正式發布，Marc Ewing成立Red Hat軟體公司，成為最著名的Linux經銷商之一。早期Linux的啟動管理程式（boot loader）使用LILO（Linux Loader），早期的LILO存在著一些難以容忍的缺陷，例如無法識別1024柱面以後的硬碟空間，後來的GRUB（GRand Unified Bootloader）克服這些缺點，具有『動態搜尋核心檔案』的功能，可以讓用戶在啟動的時候，自行編輯啟動設定系統檔案，透過ext2或ext3檔案系統中載入Linux Kernel（GRUB通過不同的檔案系統驅動可以識別幾乎所有Linux支援的檔案系統，因此可以使用很多檔案系統來格式化核心檔案所在的磁區，並不侷限於ext檔案系統）。
+今天由Linus Torvalds帶領下，眾多開發共同參與開發和維護Linux核心。[20]理察·斯托曼領導的自由軟體基金會，繼續提供大量支援Linux核心的GNU組件。[21]一些個人和企業開發的第三方的非GNU組件也提供對Linux核心的支援，這些第三方組件包括大量的作品，有核心模組和用戶應用程式和庫等內容。Linux社區或企業都推出一些重要的Linux套件，包括Linux核心、GNU組件、非GNU組件，以及其他形式的軟體套件管理系統軟體。
+基於Linux的系統是一個模組化的類Unix作業系統。Linux作業系統的大部分設計思想來源於20世紀70年代到80年代的Unix作業系統所建立的基本設計思想。Linux系統使用單核心，由Linux核心負責處理行程控制、網路，以及外圍裝置和檔案系統的存取。在系統執行的時候，裝置驅動程式要麼與核心直接整合，要麼以載入模組形式添加。
+Linux具有裝置獨立性，它核心具有高度適應能力，從而給系統提供了更進階的功能。GNU使用者介面組件是大多數Linux作業系統的重要組成部分，提供常用的C函式庫，Shell，還有許多常見的Unix實用工具，可以完成許多基本的作業系統任務。大多數Linux系統使用的圖形化使用者介面建立在X視窗系統之上，由X窗口(XWindow)系統通過軟體工具及架構協定來建立作業系統所用的圖形化使用者介面。
+已安裝Linux作業系統包含的一些組件：
+Linux發行版指的就是通常所說的「Linux作業系統」，它一般是由一些組織、團體、公司或者個人製作並發行的。Linux核心主要作為Linux發行版的一部分而使用。通常來講，一個Linux發行版包括Linux核心，以及將整個軟體安裝到電腦上的一套安裝工具，還有各種GNU軟體，和其他的一些自由軟體，在一些Linux發行版中可能會包含一些專有軟體。發行版為許多不同的目的而製作，包括對不同電腦硬體結構的支援，對普通用戶或開發者使用方式的調整，針對實時應用或嵌入式系統的開發等等。目前，超過三百個發行版被積極的開發，最普遍被使用的發行版有大約十二個。較為知名的有Debian、Ubuntu、Fedora和openSUSE等。[22]
+一個典型的發行版包括：Linux核心，GNU函式庫和各種系統工具，命令行Shell，圖形介面底層的X視窗系統和上層的桌面環境等。桌面環境有如KDE或GNOME等，並包含數千種從辦公套件，編譯器，文字編輯器，小遊戲，兒童教育軟體，到科學工具的應用軟體。
+很多發行版含有LiveCD的方式，就是不需要安裝，放入系統光碟或其它媒介進行啟動，就能夠在不改變現有系統的情況下使用。比較著名的有Damn Small Linux，Knoppix等。LiveCD的相關技術進步至此，很多的發行版本身的安裝光碟也有LiveCD的功能。
+今天各種場合都有使用各種Linux套件，從嵌入式裝置到超級電腦（Super Computer），[23][24]並且在伺服器領域確定了地位，通常伺服器使用LAMP組合。[25]在家庭與企業中使用Linux套件的情況越來越多。[26][27][28][29][30][31][32]並且在政府中也很受歡迎，巴西聯邦政府因支援Linux而世界聞名。[33][34]有新聞報導俄羅斯軍隊自己製造的Linux發行版，做為G.H.ost項目已經取得成果。[35]印度的喀拉拉邦計劃在向全聯邦的高中推廣使用Linux。[36][37]中華人民共和國為取得技術獨立，在龍芯過程中排他性地使用Linux。[38]
+在西班牙的一些地區開發了自己的Linux發行版，並且在政府與教育領域廣泛使用，如埃斯特雷馬杜拉地區的gnuLinEx和安達盧西亞地區的Guadalinex。葡萄牙同樣使用自己的Linux發行版Caixa Mágica，用於Magalhães筆記型電腦[39]和e-escola政府軟體。[40]法國和德國同樣開始逐步採用Linux。[41]
+傳統的Linux使用者一般都是專業人士。他們願意安裝並設定自己的作業系統，往往比其他作業系統的用戶花更多的時間在安裝並設定自己的作業系統。這些用戶有時被稱作「駭客」或是「極客」。
+使用Linux主要的成本為移植、培訓和學習的費用，早期由於會使用Linux的人較少，並且在軟體設計時並未考慮非專業者的使用，導致這方面費用極高。但這方面的費用已經隨著Linux的日益普及和Linux上的軟體越來越多、越來越方便而降低，但專業仍是使用Linux的主要成本。
+然而隨著Linux慢慢開始流行，有些原始裝置製造商（OEM）開始在其銷售的電腦上預裝上Linux，Linux的用戶中也有了普通電腦用戶，Linux系統也開始慢慢出現在個人電腦作業系統市場。Linux在歐洲、美國和日本的流行程度較高，歐美地區還發行Linux平台的遊戲和其他家用軟體。Linux開源社群方面也是以歐洲、美國、日本等已開發國家的人士居多。
+每個孩子一台筆記型電腦這一項目正在催生新的更為龐大的Linux用戶群，計劃將包括開發中國家的幾億學童、他們的家庭和社區。在2007年，已經有六個國家訂購了至少每個國家一百萬台以上免費發放給學生。Google、Red Hat和eBay是該項目的主要支持者。
+基於其低廉成本與高度可設定性，Linux常常被應用於嵌入式系統，例如機上盒、行動電話及行動裝置等。在行動電話上，基於Linux的Android已經成為IOS的主要競爭者；而在行動裝置上，則成為Windows CE與Palm OS之外另一個選擇。目前流行的TiVo數位攝影機使用了經過客製化後的Linux。此外，有不少硬體式的網路防火牆及路由器，例如部份LinkSys的產品，其內部都是使用Linux來驅動、並採用了作業系統提供的防火牆及路由功能。
+轉換作業系統的開銷：自由開源意識形態與商業用途的衝突、缺乏強而有力的推廣廠商、缺乏對特殊的硬體和應用程式的支援、電腦技術人員不願再花費時間重覆學習、對已有平台的依賴，是制約Linux被採納的主要因素。
+目前能在Windows或Mac OS上執行的應用軟體大部分都沒有Linux的版本，不過在Linux平台上通常可以找到類似功能的應用軟體。大多數在Windows平台上廣泛使用的自由軟體都有相應的Linux版本，例如LibreOffice、Mozilla Firefox、Apache OpenOffice、Pidgin、VLC、GIMP；部分流行的專有軟體也有相應的Linux版本，如Adobe Flash Player、Adobe Reader、Google Earth、Nero Burning ROM、Opera、Maple、MATLAB、Skype、Maya、SPSS、Google Chrome。
+另外，相當多的Windows應用程式可以通過Wine和一些基於Wine的項目如CrossOver正常運行和工作。如Microsoft Office、Adobe Photoshop、暴雪娛樂的遊戲、Picasa其中對於Photoshop的Crossover（Wine）相容性工作有Disney、DreamWorks、Pixar投資支援，等。Google大力參與Wine項目改進，Picasa的GNU/Linux版本也是經Wine測試的Windows平台編譯版本。[42]
+整個亞洲，比較缺乏對Linux的支援，硬體和應用程式皆只考量微軟作業系統設計的需求。例如：Internet Explorer及ActiveX需求、Microsoft Office相容性、網路遊戲以及一般用戶都傾向於使用Windows。
+但是，Linux下也有相當多不能在Windows平台下執行的軟體，主要是依靠X視窗系統和其他Windows無法利用的資源，或者是因為穩定性等其他方面的考慮並不準備支援Windows。不過近年來，也不斷向其移植。有如KDE SC、Cinepaint正在進行向Windows的移植。Linux使用的增多也使得Windows開源軟體(Open Source)向Linux移植，比如Filezilla。
+GNOME
+KDE Plasma
+Xfce
+MATE
+LXDE
+LXQt
+Enlightenment
+IceWM
+Openbox
+i3
+Awesome
+Pantheon
+Cinnamon
+Budgie
+Linux發行版同樣在小筆電市場很受歡迎，像ASUS Eee PC和Acer Aspire One，銷售時安裝有訂製的Linux發行版。
+Linux套件一直被用來作為伺服器的作業系統，並且已經在該領域中占據重要地位。根據2006年9月Netcraft（英語：Netcraft）的報告顯示，十個最大型的網路代管公司有八個公司在其Web伺服器執行Linux套件。
+Linux套件是構成LAMP（Linux作業系統，Apache，MySQL，Perl / PHP / Python）的重要部分，LAMP是一個常見的網站代管平台，在開發者中已經得到普及。
+Linux套件也經常使用作為超級電腦的作業系統，2010年11月公布的超級電腦前500強，有459個（91.8％）執行Linux套件[43]。曾經是世界上最強大的超級電腦[44]——IBM的紅杉（IBM Sequoia），已於2011年交付勞倫斯利福摩爾國家實驗室，並於2012年6月開始運作，也是選擇Linux作為作業系統。[45]
+在智慧型手機、平板電腦等行動裝置方面，Linux也得到重要發展，基於Linux核心的Android作業系統已經超越諾基亞的Symbian作業系統，成為當今全球最流行的智慧型手機作業系統。在2010年第三季度，銷售全球的全部智慧型手機中使用Android的占據25.5%（所有的基於Linux的手機作業系統在這段時間為27.6%）。
+從2007年起，手機和掌上電腦上執行基於Linux的作業系統變得更加普遍，例如：諾基亞 N810、OpenMoko的Neo1973、摩托羅拉的ROKR E8。Palm（後來被HP公司收購）推出了一個新的基於Linux的webOS作業系統，並使用在新生產的Palm Pre智慧型手機上。
+MeeGo是諾基亞和英特爾於2010年2月聯合推出的基於Linux的作業系統，諾基亞也推出了使用MeeGo作業系統的N9手機。2011年9月28日，繼諾基亞宣布放棄開發MeeGo之後，英特爾也正式宣布將MeeGo與LiMo合併成為新的系統Tizen。Jolla Mobile公司成立並推出了由MeeGo發展而來的Sailfish作業系統。2012年，Mozilla推出基於Linux核心的Firefox OS作業系統[46]。
+Linux的低成本、強大的客製化功能以及良好的移植效能，使得Linux在嵌入式系統方面也得到廣泛應用。流行的TiVo數位影片錄影機還採用了客製化的Linux，思科在網路防火牆和路由器也使用了客製化的Linux。Korg OASYS、Korg的KRONOS、山葉的YAMAHA MOTIF XS/Motif XF音樂工作站、山葉的S90XS/S70XS、山葉MOX6/MOX8次合成器、山葉MOTIF-RACK XS音源模組，以及Roland RD-700GX數位鋼琴均執行Linux。Linux也用於舞檯燈光控制系統，如WholeHogIII控制台。
+很多開源軟體的定量研究聚焦在市場佔有率（雖然多數不算作市場中的商品）和可靠性，包括數不清的Linux分析報告。Linux份額成長迅速。IDC的2008年第二季度報告指出，Linux在所有伺服器市場的市佔率已經達到29%，比該研究機構在2007年的調查大幅增加了12個百分點。這個估計數字基於Linux伺服器的銷售額。
+所以，Linux的市佔率是不可小覷的。Netcraft報告，在2010年二月，每10台可靠的伺服器中Linux發行版占6台，FreeBSD占2台，Windows占1台。而Debian、CentOS兩個至關重要的發行版並不銷售。
+Linux的註冊商標是Linus Torvalds所有的。這是由於在1996年，一個名字叫做William R. Della Croce的律師開始向各個Linux發布商發信，聲明他擁有Linux商標的所有權，並且要求各個發布商支付版稅，這些發行商集體進行上訴，要求將該註冊商標重新分配給Linus Torvalds。Linus Torvalds一再聲明Linux是自由且免費的，他本人可以賣掉，但Linux絕不能賣。
+「GNU/Linux」此名稱是GNU計劃的支持者與開發者，特別是其創立者理察·斯托曼對於Linux作業系統的主張。由於此類作業系統使用了眾多GNU程式，包含Bash（Shell程式）、函式庫、編譯器等等作為Linux核心上的系統套件，理察·斯托曼認為應該將該作業系統稱為「GNU/Linux」或「GNU+Linux」較為恰當，但現今多數人仍稱其為Linux。就1997年之前的Linux來看，一間CD-ROM的供應商所提供的資料顯示在他們的「Linux 發行版」中，GNU 軟體所占最大的比重，大約占全部原始碼的28%，且還包括一些關鍵的部件，如果沒有這些部件，系統就無法工作，而Linux 本身占大約3%。[49]
+Linux社群中的一些成員，如埃里克·雷蒙、林納斯·托瓦茲等人，偏好Linux的名稱，認為Linux朗朗上口，短而好記，拒絕使用「GNU/Linux」作為作業系統名稱。並且認為Linux並不屬於GNU計劃的一部份，斯托曼直到1990年代中期Linux開始流行後才要求更名。有部分Linux套件，如Debian，採用了「GNU/Linux」的稱呼。但大多數商業Linux套件依然將作業系統稱為Linux。而有些人則認為「作業系統」一詞指的只是系統的核心(Kernel)，其他程式都只能算是應用軟體，因而，該作業系統應叫Linux，但Linux系統套件是在Linux核心的基礎上加入各種GNU軟體套件集合而成的。
+在這兩個主要名稱之外，也有其他名稱的提議。1992年，Yggdrasil Linux主張命名為Linux/GNU/X，因為除了GNU計劃軟體之外，很多Linux還採用了X視窗系統。

@@ -1,0 +1,14 @@
+在同步的程式設計中，臨界區段（Critical section）指的是一個存取共享資源（例如：共享裝置或是共享記憶體）的程式片段，而這些共享資源有無法同時被多個執行緒存取的特性。
+當有執行緒進入臨界區段時，其他執行緒或是行程必須等待（例如：bounded waiting 等待法），有一些同步的機制必須在臨界區段的進入點與離開點實現，以確保這些共享資源是被互斥或的使用，例如：semaphore。
+只能被單一執行緒存取的裝置，例如：印表機。
+一個最簡單的實現方法就是當執行緒（Thread）進入臨界區段時，禁止改變處理器；在uni-processor系統上，可以用「禁止中斷（CLI）」來完成，避免發生系統呼叫（System Call）導致的上下文交換（Context switching）；當離開臨界區段時，處理器回復原先的狀態。
+在Windows作業系統，CRITICAL_SECTION是一種同步物件類型，用於同一個行程內的多執行緒同步存取資源。如果是跨行程同步，需要使用互斥鎖（mutex）。 
+臨界區物件首先需要初始化，通過呼叫作業系統API函式InitializeCriticalSection。各個執行緒呼叫函式 EnterCriticalSection, TryEnterCriticalSection, 或LeaveCriticalSection來使用臨界區。使用結束後或者重初始化臨界區之前，需要呼叫 DeleteCriticalSection 。
+WINNT.H中定義的臨界區資料結構如下：
+結構的各域的解釋：
+RTL_CRITICAL_SECTION_DEBUG結構如下：
+struct _RTL_CRITICAL_SECTION_DEBUG
+{
+}
+結構的各域的解釋：
+MSDN Library -- Critical section

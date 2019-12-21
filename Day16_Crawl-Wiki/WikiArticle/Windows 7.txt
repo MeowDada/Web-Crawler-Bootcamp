@@ -1,0 +1,47 @@
+新增的功能
+移除的功能
+版本
+開發歷史
+Windows 7（開發代號Blackcomb，後期命名為Vienna）是微軟公司推出的電腦作業系統，供個人、家庭及商業使用，一般安裝於桌上型電腦、筆記型電腦、平板電腦、多媒體中心等。微軟首席執行官（CEO）史蒂夫·巴爾默曾經在2008年10月稱，Windows 7是Windows Vista的「改良版」。[5]
+Windows 7於2009年7月22日發放給組裝機生產商（OEM），零售版於2009年10月23日在中國大陸及臺灣發布[6][7]，香港於翌日發布。2011年10月StatCounter調查資料顯示，Windows 7已售出4.5億套，以40.17%市佔率超越Windows XP的38.72%。[8]。
+Windows 7的後繼作業系統是Windows 8（Windows 8.1是 Windows 8 的後續作業系統），在2012年10月26日上市。（Windows 8）
+2015年1月21日，微軟宣布，Windows 7 SP1的用戶可在第一年內免費升級至Windows 10。[9]但是，10天後便改口指企業版Windows的用戶仍需另外付費才能升級。[10]2015年6月1日，微軟正式宣布於7月29日推出Windows 10[11]，並隨Windows Update提醒符合升級用戶如何預約取得Windows 10。
+Windows 7主流支援已於2015年1月13日到期，延伸支援將於2020年1月14日到期。但企業和機構客戶可以選擇付費延遲到2023年。
+以加拿大滑雪聖地Blackcomb（英語：Whistler Blackcomb）為開發代號的Windows作業系統最初被計劃為Windows XP和Windows Server 2003的後續版本。Blackcomb計劃的主要特性是強調資料的搜尋查詢和與之配套名為WinFS的進階檔案系統。但在2003年，隨著開發代號為Longhorn的過渡性簡化版本的提出，Blackcomb計劃被延後。[12]
+2003年中，Longhorn具備了一些原計劃在Blackcomb中出現的特性。2003年，三個在Windows作業系統上造成嚴重危害的病毒暴發後，微軟改變它的開發重點，把一部份Longhorn上的主要開發計劃擱置，轉而為Windows XP和Windows Server 2003開發新的服務包。Windows Vista的開發工作被「重設」，或者說在2004年9月推遲，許多特性被去掉。[13]
+2006年初，Blackcomb被重新命名為Vienna，[14]然後又在2007年改稱Windows Seven。[15]2008年，微軟宣布將7做為正式名稱，成為現在的最終名稱——Windows 7。[16][17]
+2008年1月，對選中的微軟合作夥伴發布第一個公布版本Milestone 1，組建6519。[18]在2008年的PDC（Professional Developers Conference，專業開發人員會議）上，微軟發表Windows 7的新工具列以及開始功能表，並在會議結束時發布了組建6801，但是所發表的新工具列並沒有在這個版本中出現。
+2008年12月27日，Windows 7 Beta透過BitTorrent洩漏到網路上。[19]ZDNet針對這個版本測試，它在多個關鍵處都勝過Windows XP和Windows Vista，包括啟動和關機的耗時、檔案和檔案的開啟[20]；[21] 2009年1月7日，64-bit的Windows 7 Beta（組建7000）被洩漏到網路上，並在不少的torrent檔案中附帶了特洛伊木馬病毒。[22][23]在2009年的國際消費電子展（CES）上，微軟的首席執行官史蒂夫·巴爾默（Steve Ballmer）公布Windows 7 Beta已提供ISO映像檔給MSDN以及TechNet的使用者下載；[24]該版本亦於2009年1月9日開放給大眾下載。微軟預計當日的下載次數能達到250萬人次，但由於流量過高，下載的時間就因而拖延了。[25]一開始，微軟將下載期限延長至1月24日，後來又延至2月10日。無法在2月10日前下載完成的人會有兩天的延長期限。2月12日之後，未完成的下載工作會無法繼續，但已下載完成的人仍然可以從微軟的網站上取得產品序號。這個預覽版本會自2009年7月1日起開始每隔數小時自動關機，並於同年8月1日過期失效。2009年4月30日，RC (Release Candidate)版本（組建7100）提供給微軟開發者網路以及TechNet的付費使用者下載；5月5日開放大眾下載。[26]它亦有透過BitTorrent被洩漏到網路上。[27] RC版本提供五種語言，並會自2010年3月1日起開始每隔兩小時自動關機，並於同年6月1日過期失效。[28]根據微軟，Windows 7的最終版本將於2009年的假期消費季發布。2009年6月2日，微軟證實Windows 7將於2009年10月22日發行，並同時發布Windows Server 2008 R2。[29]2009年7月下旬，Windows 7零售版提供給製造商作為隨機作業系統銷售或是測試之用。並於2009年10月22日上午11時（UTC-4）由微軟首席執行官史蒂夫·巴爾默正式在紐約展開發布會。
+比爾·蓋茲在和新聞週刊的一個會談中，說到Windows 7更「以使用者為中心」。[30]之後，他又提出Windows 7在執行程式方面上有較大的改進；[31]史蒂芬·西諾夫斯基在Windows 7的技術部落格上說明了這一點：微軟將會在進步的前提下利用多種測量工具來測試作業系統，以增進其執行效率。[32]
+Windows 7提高了螢幕觸控支援和手寫辨識，支援虛擬硬碟(VHD)，改善多核心(Multi-Core)處理器的運作效率[33][34][35][36]，啟動速度和核心改進。增加的功能大致上包括：支援多個顯示卡、新版本的Windows Media Center（12）[37]、一個供Windows Media Center(WMC)使用的桌面小工具、增強的音訊功能、內建的XPS和Windows PowerShell以及一個包含了新模式且支援單位轉換的新版小算盤。另外，其控制台也增加了不少新項目：ClearType文字調整工具、顯示器色彩校正精靈、桌面小工具(Desktop Gadget)、系統還原(System Restore)、疑難排解、工作空間中心（Workspaces Center）、認證管理員、系統圖示和顯示。舊有的Windows資訊安全中心被更名為「Windows行動作業中心」，它有保護電腦資訊安全的功能。
+工具列在外觀上有較大的改變。原有的「快速啟動」功能已被「釘」在工具列上的縮小程式圖示取代。這個功能不僅具有快速啟動原有的功能，也同時具有顯示目前正在運行的程式圖示的功能（這相當於Windows XP和Windows Vista工具列上原有的橫條狀程式顯示，只是改為圖示）。這些在工具列上的按鈕不但可以協助使用者執行開啟、縮到最小、放到最大以及關閉等基本程式操作，同時在程式支援的前提之下也能顯示一些該程式進階的功能或選項（例如：點選「記事本」(Notepad)不但可以開啟程式，同時也能顯示最近打開的檔案）。[38]改進後的工具列允許使用者將工具列上的各個圖示重新排列。在工具列最右端（系統時鐘的右邊）有一個小的長方形按鈕，這個按鈕提供快速「顯示桌面」的功能（舊版Windows需要在工具列上按右鍵後選取「顯示桌面」）。這個按鈕是Windows 7新的「Aero Peek」功能的其中一項，使用者只要將滑鼠游標停在其上方，就可使所有的表單變透明，僅顯示框線，如此便可以快速瀏覽桌面上的內容。[39]另外，因為這個按鈕在右下方的角落，故在觸控式螢幕中，這個按鈕的設計會相對的較大，以方便使用者能夠點選。[40]點選這個按鈕時，所有的視窗都將縮小化，而再點一次時，所有的視窗就會恢復至原先的大小。除此之外，有一項新功能「Aero Snap」，它能夠在使用者將視窗移至螢幕上／左／右的邊緣時自動將其最大化。[41]這個功能有利於同時比較多個檔案之間的差異（當移動兩個或以上的視窗至邊緣時，視窗會依大小平均分配至整個桌面）。該功能也可以使用鍵盤快速鍵執行。另外，在Aero的改進部份，當一個視窗被最大化時，該視窗的邊緣以及最下方的工具列仍將保持透明（不同於Windows Vista）。
+對開發者來說，Windows 7提供一套全新的網路API。這些API支援使用機器語言建立基於SOAP的網路服務（而非基於.NET的WCF網路服務）。[42]此外，新的作業系統縮短套用程式安裝所需的時間，對UAC進行改進，使用者可以自己調節UAC，以減少UAC（User Account Control，使用者帳戶控制）提示的出現次數，簡化安裝時的安裝過程[43]，並對API增加不同語言的支援。[44]
+在2008年的Windows硬體工程研討會上，微軟宣布Windows 7的色彩品質將支援30位元以及48位元。在Windows 7中，支援的顯示模式包括16位元的sRGB、24位元的sRGB、30位元的sRGB、30位元寬色域的sRGB、48位元的scRGB。[45][46]另外，微軟也對SSD（Solid State Drive，固態硬碟）提供更好的支援，Windows 7將能夠唯一地辨認出一個SSD。
+網際網路西式拱棋、網際網路西洋骰子棋以及網際網路西洋棋等三個在Windows Vista中被取消的遊戲在Windows 7中又重新出現。
+Windows 7內建了Internet Explorer 8和Windows Media Player 12。
+和之前的作業系統相較起來，Windows 7允許使用者停用更多的Windows內建外掛程式。Internet Explorer 8、Windows Media Player、Windows Media Center、Windows Search以及Windows Gadget Platform等都可以被使用者停用。[47] Windows 7新增了13種主題，分別是Afternoon（午後）、Calligraphy（書法）、Characters（特色）、Cityscape（城市景色）、Delta、Festival（慶典）、Garden（花園）、Heritage（遺跡）、Landscape（風景）、Quirky（反覆無常）、Raga（拉迦音樂）、Savanna（大草原）和Sonata（奏鳴曲）。[48]在Windows 7 Professional、Enterprise和Ultimate三個版本中會含有一個類似虛擬微機「Windows Virtual PC」的功能。[49]這種虛擬微機能讓使用者在Windows 7運行的同時執行不同的Windows環境，包括「Windows XP模式」。Windows XP模式可讓使用者在一台虛擬機器上執行Windows XP，並將其正在執行的程式顯示於Windows 7的桌面上。[50] Windows 7允許使用者安裝一個虛擬硬碟作為一般的資料儲存媒介，並可利用Windows 7內建的啟動裝置從虛擬硬碟中讀取並執行Windows系統。[51] Windows 7的遠端桌面控制功能也有改善，它支援運行3D遊戲、影片播放等多媒體程式，同時DirectX 10也可以在遠端桌面(Remote Desktop) 環境使用。[52]另外，原本的Windows Vista Starter限制使用者只能同時運行三個程式，但在Windows 7 Starter中，這個限制已經取消。
+Windows 7刪除了Windows Vista中的許多功能和一些程式，如傳統開始功能表樣式、Windows Ultimate Extras、筆跡球和Windows行事曆。Windows 7去除了Windows Vista中捆綁的三個軟體—Windows Photo Gallery、Windows Movie Maker和Windows Mail，以名為Windows Live Essentials/Windows Essentials的可選軟體包方式單獨提供。
+部份功能本是為Vista而設，如Windows PowerShell和WinFS，雖也是Windows 7的基本部份，但可能會在完成之後才單獨發布。現時Windows PowerShell已單獨發布出來。
+Windows 7 beta還有「Sandbox」（沙盒）功能，其功能接近於在開發Longhorn系統時的「Alpha/White Box」，所有非管理代碼將會在沙盒系統中運行，這樣接入「外界」將被作業系統控制。對底層的存取將被從沙盒內部禁止，同樣還有對檔案系統、硬體抽象層（HAL）以及完全記憶體位址的直接存取。所有對外部應用程式、檔案和協定的請求都將被作業系統管理，任何惡意行為都將被立刻中止。如果這一方法成功，它預示著極強的安全和保障：如果惡意軟體能被有效地鎖在一個玻璃盒中的話，它事實上不可能對系統造成任何傷害。不過在正式發行版移除了沙盒功能。
+另一個有趣的功能就是一種通用語言可以解讀使用者的指令。這包含了「自動完成全句指示」的功能，在現時主流搜尋引擎中已具備這項功能（例如：微軟自家的Bing，以及第三方搜尋引擎諸如Yahoo及Google），它的功能是可以輸入錯誤的語法亦能讓電腦正常執行該條指令。
+Windows 7涵蓋32位元和64位元二個版本，顧及從32位元系統過渡到64位元系統的趨勢。Windows Server 2008 R2則只對應64位元伺服器系統，但亦會相容32位元程式。而16位元視窗系統和MS-DOS應用程式，則提供有限度支援，情況如同Windows Vista x64版本。
+Windows 7新增加一個稱為「Windows XP模式」的功能。此功能可以讓Windows 7通過虛擬化技術呼叫虛擬機器中的Windows XP，實現近乎的完全相容。這個功能只在Windows 7專業版(Professional)、企業版(Enterprise)及旗艦版(Ultimate)版本中以免費授權的方式開放。
+Windows 7如同微軟其他作業系統一樣，也被美國的反壟斷專家監察；分析師Michael Gartenberg和Jupiter Research表示：「微軟的挑戰將是如何在沒有相抵觸當地相關法規的情況下，把消費者想要的新功能添加到Windows 7上。」[53]微軟在Windows 7的工程部落格上宣布，Windows7相比起Windows Vista，使用者將可以關閉更多的功能，其中就包括Internet Explorer。[47]在歐洲，Windows 7的用戶可選擇Internet Explorer以外的瀏覽器，其中包括Mozilla Firefox、Google Chrome以及Opera，因為預裝Internet Explorer的行為被列入為壟斷行為之一。[54]
+微軟於2009年2月宣布Windows 7將發行6個版本[55]。和Windows Vista一樣，除了簡易版（Starter）只提供32位元版本之外，其餘五個版本都會發行32位元和64位元兩種版本。但零售全包裝產品（Full Packaged Product）的家用入門版（Home Basic）內只含有32位元光碟。
+Windows 7提供了六個不同版本，其中Home Premium，Professional和Ultimate零售版在大多數國家/地區都有零售，並且作為新電腦上的預裝軟體。家用進階版和專業版分別針對家庭使用者和小型企業，而旗艦版則針對發燒友。 Windows 7的每個版本均包含其下面版本的所有功能和功能，並針對其細分市場增加了其他功能；例如，專業版增加了其他網路和安全功能，例如加密檔案系統和加入域的功能。 Ultimate包含Home Premium和Professional的功能的超集，以及面向進階使用者的其他進階功能，例如BitLocker驅動器加密；與Windows Vista不同，沒有為Windows 7 Ultimate建立「附加功能」附加元件。零售版提供「升級」和成本較高的「完整」版本許可證； 「升級」許可證需要安裝Windows的現有版本，而「完整」許可證可以安裝在沒有現有作業系統的電腦上。
+其餘三個版本不零售，其中兩個版本通過OEM管道作為預裝軟體專門提供。 簡化版是Windows 7的簡化版本，適用於諸如小筆電之類的低成本裝置。 與Home Premium相比，Starter減少了多媒體功能，不允許使用者更改桌面牆紙或主題，禁用「 Aero Glass」主題，不支援多台監視器，並且只能處理2GB的RAM。 Home Basic僅在新興市場銷售，定位在Home Premium和Starter之間。 最高版本的企業版在功能上與Ultimate相似，但僅通過Microsoft的軟體保障計劃通過批次許可出售。
+除Starter之外，所有版本均支援IA-32和x86-64體系結構。 簡易版僅支援32位元系統。 Windows 7的零售副本分發在兩張DVD上：一張用於IA-32版本，另一張用於x86-64。 OEM副本包括一張DVD，具體取決於許可的處理器體系結構。 Windows 7消費者版本的安裝媒體是相同的。 產品金鑰和相應的許可證確定安裝的版本。 Windows隨時升級服務可用於購買解鎖版本的升級，這些升級版本可以解鎖更高版本的功能，例如從Starter到Home Premium，以及從Home Premium到Ultimate。Windows 7的大多數副本僅包含一個許可證。 在某些市場中，Windows 7 Home Premium的「家庭包」版本也在有限的時間內發布，可以在最多三台電腦上進行升級。 在某些地區，僅出售Windows 7的副本，並且只能在指定的區域中啟用。
+值得留意的是，雖然是叫「Windows 7」，但軟體版本號是「6.1」而非「7.0」。因為版本是「6.1」，所以「Windows 7」嚴格上在核心層面仍於「Windows Vista」同級別，這個和Windows XP在核心層面上與Windows 2000同級別是相類似的。
+Windows 7 32位元版本的硬體需求與Windows Vista Premium Ready PC等級相同。微軟已經為Windows 7發布了Windows 7 Upgrade Advisor。
+若要使用以下特定功能，則需另外符合其他額外的硬體需求：
+不同版本的Windows 7所支援的記憶體（RAM）上限不同。[58]
+Windows 7 Professional、Enterprise、Ultimate支援雙枚物理處理器（雙路處理器平台）。[59]
+Windows 7 Starter, Home Basic, Home Premium只支援一枚物理處理器。[60]處理器不論核心數目或超執行緒，均視作一枚物理處理器。
+32位元Windows 7支援最多32個邏輯處理器，64位元版本支援最多256個邏輯處理器。[61]一個邏輯處理器是指：1）超執行緒下，每個核心的兩個執行緒的其中一個處理端；或2）不支援超執行緒下，處理器的核心數目。
+Windows 7各版本的售價均較Windows Vista低約10%。
+2010年2月2日下午，微軟宣布將終止2009年發行的Windows 7發布候選版。2月15日開始，該版本使用者將每隔數小時收到系統的警告通知。3月1日起，系統執行每隔兩小時自動關機一次，且關機前不發出警告[62]。
+Windows 7的第一個服務包Service Pack 1於2010年3月18日發布，正式版於當地時間2011年2月23日凌晨通過Windows Update推播給台灣普通使用者，使用者也可在之後於微軟下載中心下載得到此服務包。
+該服務包傳承了當年Windows Vista和Windows Server 2008的慣例，將Windows 7的和Windows Server 2008 R2的更新檔捆綁於同一個包內。其中32位元的服務包大小約為537MB，而64位元Windows 7和Windows Server 2008 R2的服務包大小高達903MB。
+Windows 7 Service Pack 1添加了對進階向量擴充（AVX）（處理器的256位指令集擴充）的支援，並通過向其添加其他標識欄位（如電子郵件ID）來改進IKEv2。另外，它增加了對進階格式512e的支援以及其他身分聯合服務。 Windows 7 Service Pack 1還解決了與HDMI音訊有關的錯誤以及與列印XPS文件有關的另一個錯誤。
+在2012年11月5日發布預發布版本後，[Windows 7 SP1和Windows Server 2008 R2 SP1平台更新於2013年2月26日發布。 Windows 7的Internet Explorer 10中也包含它。
+它包括Direct2D，DirectWrite，Direct3D，Windows圖像組件（WIC），Windows進階光柵化平台（WARP），Windows動畫管理器（WAM），XPS Document API，H.264影片解碼器和JPEG XR解碼器的增強。但是，由於更新不包括Windows 8中的DXGI / WDDM 1.2，因此對Direct3D 11.1的支援受到限制，從而使許多相關API和重要功能（如立體影格緩衝區，功能級別11_1和10_0、10_1和11_0級別的可選功能）不可用。

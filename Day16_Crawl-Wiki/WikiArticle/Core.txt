@@ -1,0 +1,501 @@
+Intel Core是英特爾公司旗下為中、高階消費者，工作站和發燒級別中央處理器品牌。取代了原本奔騰中高階的位置。
+現時Core品牌的產品分成了Core i3、Core i5、Core i7、Core i9和極致版的Core-X系列。
+Penryn-L
+1
+45 奈米
+2008年5月
+Allendale
+Wolfdale
+2
+2
+65 奈米
+45 奈米
+2007年1月
+2008年1月
+Penryn
+2
+45 奈米
+2008年1月
+Yorkfield
+4
+45 奈米
+2008年3月
+Kentsfield XE
+Yorkfield XE
+4
+4
+65 奈米
+45 奈米
+2006年11月
+2007年11月
+Penryn XE
+Penryn XE
+2
+4
+65 奈米
+45 奈米
+2008年1月
+2008年8月
+Kaby Lake
+Kaby Lake
+2
+2
+14 奈米
+14 奈米
+2016年9月
+2017年4月
+Sandy Bridge
+Ivy Bridge
+Haswell
+Skylake
+Kaby Lake
+Coffee Lake
+Coffee Lake
+2
+2
+2
+2
+2
+4
+4
+32 奈米
+22 奈米
+22 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+2011年2月
+2012年9月
+2013年9月
+2015年9月
+2017年1月
+2017年10月
+2019年1月
+Sandy Bridge
+Ivy Bridge
+Haswell
+Broadwell
+Skylake
+Skylake
+Kaby Lake
+Skylake
+Kaby Lake
+Kaby Lake
+Coffee Lake
+Cannon Lake
+Coffee Lake
+32 奈米
+22 奈米
+22 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+10 奈米
+14 奈米
+2011年2月
+2012年6月
+2013年6月
+2015年1月
+2015年9月
+2016年6月
+2016年8月
+2016年11月
+2017年1月
+2017年6月
+2018年4月
+2018年5月
+2018年7月
+Clarkdale
+Sandy Bridge
+Sandy Bridge
+Ivy Bridge
+Haswell
+Broadwell
+Skylake
+Kaby Lake
+Coffee Lake
+Coffee Lake
+2
+4
+2
+2-4
+2-4
+4
+4
+4
+6
+6
+32 奈米
+32 奈米
+32 奈米
+22 奈米
+22 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+2010年1月
+2011年1月
+2011年2月
+2012年4月
+2013年6月
+2015年6月
+2015年9月
+2017年1月
+2017年10月
+2018年10月 - 2019年1月
+Sandy Bridge
+Ivy Bridge
+Haswell
+Broadwell
+Skylake
+Kaby Lake
+Kaby Lake
+Kaby Lake-R
+Coffee Lake
+2
+2
+2
+2
+2-4
+2
+4
+4
+4
+32 奈米
+22 奈米
+22 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+2011年2月
+2012年5月
+2013年6月
+2015年1月
+2015年9月
+2016年8月
+2017年1月
+2017年8月
+2018年4月
+Lynnfield
+Gulftown
+Sandy Bridge
+Sandy Bridge-E
+Sandy Bridge-E
+Ivy Bridge
+Haswell
+Ivy Bridge-E
+Broadwell
+Skylake
+Kaby Lake
+Coffee Lake
+Coffee Lake
+4
+6
+4
+6
+4
+4
+4
+4-6
+4
+4
+4
+6
+8
+45 奈米
+32 奈米
+32 奈米
+32 奈米
+32 奈米
+22 奈米
+22 奈米
+22 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+2009年9月
+2010年7月
+2011年1月
+2011年11月
+2012年2月
+2012年4月
+2013年6月
+2013年9月
+2015年6月
+2015年8月
+2017年1月
+2017年10月
+2018年10月
+Arrandale
+Sandy Bridge
+Sandy Bridge
+Ivy Bridge
+Haswell
+Broadwell
+Broadwell
+Skylake
+Kaby Lake
+Kaby Lake
+Coffee Lake
+2
+4
+2
+2-4
+2-4
+2
+4
+2-4
+2
+4
+4-6
+32 奈米
+32 奈米
+32 奈米
+22 奈米
+22 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+14 奈米
+2010年1月
+2011年1月
+2011年2月
+2012年5月
+2013年6月
+2015年1月
+2015年6月
+2015年9月
+2016年8月
+2017年1月
+2018年4月
+Gulftown
+Sandy Bridge-E
+Ivy Bridge-E
+Haswell-E
+Broadwell-E
+Skylake-X
+Kaby Lake-X
+6
+6
+6
+8
+10
+6-8
+4
+32 奈米
+32 奈米
+22 奈米
+22 奈米
+14 奈米
+14 奈米
+14 奈米
+2010年3月
+2011年11月
+2013年9月
+2014年8月
+2016年5月
+2017年6月
+2017年6月
+Sandy Bridge
+Ivy Bridge
+Haswell
+4
+4
+4
+32 奈米
+22 奈米
+22 奈米
+2011年1月
+2012年5月
+2013年6月
+Skylake-X
+Skylake-X
+Coffee Lake
+12
+14-18
+8
+14 奈米
+14 奈米
+14 奈米
+2017年8月
+2017年9月
+2018年10月
+Intel Core 2 處理器列表
+Intel Core M 處理器列表
+Intel Core i3 處理器列表
+Intel Core i5 處理器列表
+Intel Core i7 處理器列表
+Intel Core i9 處理器列表
+最初的Core品牌是指Intel的32-bit行動雙核x86CPU，源於Pentium M處理器。Intel Core處理器系列使用了增強版本的Intel P6微架構。其微架構也被稱為「Enhanced Pentium M」。Intel Core處理器是其後繼產品——64位元Intel Core微處理器架構（商標名稱為Core 2）CPU的先驅。Intel Core品牌處理器包括兩個分支：Duo (雙核)與Solo (即Duo處理器，但其中的一個核被停用，用來替代Pentium M品牌的單核行動處理器)。
+英特爾於2006年1月6日推出了Core品牌，並推出了首款低功耗雙核32位元的Yonah移動處理器。 它的雙核布局非常類似於兩個互連的Pentium M處理器，封裝為單晶片（片）矽晶片（IC）。Core處理器的32位元微體系結構與其名稱相反，與Pentium M處理器的共同點與後續的Core 2處理器的64位元Core微體系結構更為相似。 儘管英特爾從2006年1月開始進行重大品牌重塑，但一些公司繼續銷售帶有標記為Pentium M的Yonah處理器。
+Core系列也是第一款用作Macintosh的Intel處理器。Core Duo是第一代MacBook Pro的處理器，而Core Solo則出現在Mac Mini系列中。Core Duo標誌著Apple在整個產品線上向英特爾處理器轉變的開始。
+2007年，英特爾開始將用於主流移動電腦的Yonah處理器打造成奔騰雙核，(與桌面64位元核心微架構CPU奔騰雙核不同。)
+Core Solo （產品代碼80538）使用與Core Duo相同的雙核晶片，但只有一個活動核心。根據需求，英特爾可能還會簡單地禁用其中一個核心以Core Solo價格出售晶片，這比新增一個單獨的系列減少不少的工作量。 英特爾採用了之前與486處理器相同的策略，其中早期的486SX實際上是由486DX而來的，只是FPU被禁用。
+Core Duo（產品代碼80539）包含了兩個核心，2MB的L2快取，一個控制L2快取和FSB的匯流排仲裁。
+Core的後續版本是Core 2的移動版本，核心使用了由2006年7月27日發布的Intel Core微架構的。移動版Core 2標誌著英特爾統一桌面和移動產品線。不像第一款Core僅針對筆記型電腦（儘管有一些小型和一體式桌上型電腦，如iMac和Mac Mini，也使用了Core處理器），Core 2處理器均能用於桌上型電腦和筆記型電腦。
+不同於上代的是，Core 2是64位元的處理器，支援Intel 64。新的Core 2 Duo將板載快取量增加了兩倍，達到6 MB。Core 2還為單核和雙核晶片引入了四核效能提升，稱為Core 2 Quad以及極致版的Core 2 Extreme。所有晶片均採用65 奈米工藝製造，2008年採用45 奈米工藝，支援前端匯流排速度範圍為533 MHz至1600 MHz。 此外，所有採用45奈米光刻技術製造的Core 2處理器增加了SSE4.1支援，從而提高了速度。
+Core 2 Solo，於2007年9月推出，為Core Solo的繼承者。作為僅有5.5 W的超低功耗移動處理器。最初的U2xxx系列「Merom-L」使用了Merom晶片的特殊版本，CPUID號為10661（型號22，步進A1），只有一個核心，也用於一些賽揚的處理器上。後來的SU3xxx採用較小的μFC-BGA 956封裝，屬英特爾CULV系列處理器的一部分，卻包含與雙核相同的Penryn晶片，只是其中一個核在製造期間被禁用。
+Intel Core Duo[1] (產品編號：80539)是全球第一個低耗電的雙核處理器（低於25瓦特），在這之前的低耗電產品為Opteron 260/860 HE的55瓦特。Core Duo於2006年1月5日發行，並作為Napa平台的部件之一。它也是第一款蘋果麥金塔電腦所使用的Intel處理器。（蘋果開發機器使用Pentium 4處理器）。
+與早期報告不同，Intel Core Duo支援Intel的虛擬技術[2]。不過，看來一些系統整合商已經讓此功能預設是不可用的，須從BIOS選項設定使之工作。
+64位元的指令集架構技術（Intel的x86-64架構）並未被Yonah支援。然而Yonah的繼承者--Merom支援X86-64架構。
+Intel Core Duo晶片內為雙核心，由此二核心共享晶片內的2 MB L2高速緩衝記憶體，並由仲裁控制器負責L2高速緩衝記憶體與FSB（front-side bus）的運作。Core Duo處理器可以暫停其中一個核心的電力供應以省電的功能。
+Intel Core Solo[4] (產品編號：80538)實際上也有兩個核心，然而Intel故意關掉一個，以區別於Core Duo。最初目的是確保即使有一個核心故障，處理器依然能工作，從而減少由於新產品可能出現的品質問題給公司帶來的麻煩。也避免開設專門生產單核CPU的生產線的麻煩。早在486 CPU的年代，Intel就採用過類似的策略。早期的486SX CPU實際上就是按照全功能的486DX CPU製造的，但是FPU被關閉。 
+大多數桌面和移動Core 2處理器型號都是Core 2 Duo的，在Merom，Conroe，Allendale，Penryn或Wolfdale晶片上都有雙核心。它們具有廣泛的效能和功耗，從相對較慢的超低功耗Uxxxx（10 W）和低功耗Lxxxx（17 W）版本開始，到效能更高的Pxxxx（25 W）和Txxxx （35 W）移動版和Exxxx（65 W）桌上型號。 名稱中帶有'S'前綴的移動Core 2 Duo處理器採用更小的μFC-BGA 956封裝，可以構成更緊湊的筆記型電腦。
+名字中更大的數字通常指更好的效能，效能好壞取決於核心和前端匯流排頻率以及L2快取的大小，這些都是特定的。Core 2 Duo處理器通常在晶片的特定步進中使用2,3,4或6 MB的完整L2快取，而在製造期間減少快取量作為賽揚或奔騰雙核銷售給低階消費市場。一些低階的Core 2 Duo型號禁用了英特爾虛擬化技術等功能。
+Socket P
+BGA479
+Allendale
+FCBGA6
+Core 2 Quad 是多晶片模組，由兩個類似Core 2 Duo的晶片組成，形成一個四核處理器。這使得在相同頻率下的效能提高了一倍。
+最初，所有Core 2 Quad都是Core 2 Duo桌面處理器的版本，Kentsfield架構是來自由Conroe和Yorkfield的Wolfdale架構，但後來Penryn-QC被添加為移動雙核Penryn的高階版本。
+Xeon 32xx和33xx的處理器大多數和桌上型電腦的Core 2 Quad處理器相同，可以互換使用。
+Core 2 Extreme是Core 2 Duo和Core 2 Quad的極致版本，通常具有更高的頻率和未鎖定的倍頻，這使得它們對超頻用家特別有吸引力。這與標記為Extreme Edition的早期奔騰處理器類似。Core 2 Extreme的價格遠高於普通版，通常為999美元或更高。
+隨著Nehalem微體系結構於2008年11月發布，英特爾為Core推出了三種新命名方案。分別為Core i3，Core i5和Core i7。名稱不再與核心數量等特定技術功能相對應。相反，該品牌現在從低級（i3），中檔（i5）到高階效能（i7），被分為英特爾處理器評級中的三星（i3）、四星（i5）和五星（i7）。（入門級賽揚為一星，奔騰為兩星）。所有Nehalem微架構的處理器共同特性包括整合的DDR3記憶體控制器、及處理器上的QuickPath Interconnect或PCI Express和Direct Media Interface，取代了所有早期Core中使用的老化的四泵浦前端匯流排。這代的處理器每個核心都具有256 KB L2快取，以及高達12 MB的共享L3快取。由於新的I/O互連，前幾代晶片組和主機板不再能夠與Nehalem微架構處理器使用。
+隨著Core 2退役，英特爾希望Core i3成為處理器系列的新入門產品。第一款Core i3處理器於2010年1月7日推出。
+第一款Nehalem微架構的Core i3是基於Clarkdale微架構的，整合了GPU和雙核。同樣的處理器也可作為Core i5和Pentium，只不過組態略有不同。
+Core i3-3xxM處理器是基於Arrandale微架構（Clarkdale桌面處理器的移動版本）的。它們類似於Core i5-4xx系列，但時脈較低和沒有Turbo Boost。根據英特爾常見問題解答，i3不支援ECC記憶體。根據主機板製造商Supermicro的說法，如果Core i3處理器與伺服器晶片組平台（如Intel 3400/3420/3450）一起使用，則支援使用UDIMM進行ECC。當被問到時，英特爾證實，雖然英特爾5系列晶片組僅支援Core i5或i3處理器的非ECC記憶體，但在3400系列晶片組的主機板上使用這些處理器，它就能支援ECC記憶體。其他公司有限數量的主機板也支援採用英特爾酷睿ix處理器的ECC; 華碩P8B WS就是一個例子，但它不支援非Windows Server下的ECC記憶體。
+整合圖型處理器
+使用Nehalem微架構的第一款Core i5處理器於2009年9月8日推出，作為早期Core i7（Lynnfield核心）的主流變體。Lynnfield微架構的Core i5處理器具有8 MB L3快取，DMI匯流排速度為2.5 GT/s，支援雙通道DDR3-800/1066/1333記憶體並禁用超執行緒。具有不同功能集（超執行緒和其他時脈）的就成為了Core i7-8xx和Xeon 3400系列處理器出售（不同於基於Bloomfield微架構的高階Core i7-9xx和Xeon 3500系列）。英特爾推出了一項名為Turbo Boost技術的新功能，可最大限度地動態提高速度，加速效能以匹配求苛刻的應用程式和工作負載。
+Core i5-5xx移動處理器名為Arrandale（基於32奈米Westmere縮小的Nehalem微架構），在2010年1月發布。Arrandale處理器整合了圖形功能，但只有雙核。Core i5-5xx處理器中L3快取減少到3 MB，而Core i5-6xx使用完整快取。Core i5-6xx是電腦版的Clarkdale微架構。它啟用了超執行緒和完整的4 MB L3快取。
+根據英特爾：Core i5桌面處理器的桌上型主機板通常不支援ECC記憶體，但Core i3部分中有限ECC支援的資訊也適用於Core i5和i7。
+整合圖型處理器
+Core i7，使用於Nehalem，Westmere，Sandy Bridge，Ivy Bridge，Haswell，Broadwell，Skylake和Kaby Lake等微架構和多個桌上型和筆記型電腦的64位元x86-64處理器系列。Core i7品牌面向桌上型和筆記型電腦的商業和高階消費市場。
+英特爾於2008年底推出了基於Nehalem微架構的Bloomfield四核的Core i7處理器。2009年，發布了新的Core i7，新Core i7包括了Lynnfield（基於Nehalem微架構）的桌面四核處理器、Clarksfield（基於Nehalem微架構）的四核移動處理器和在2010年1月加入Arrandale（基於Nehalem微架構）的雙核移動處理器。Core中的第一款六核處理器是於2010年3月16日推出Nehalem微架構的Gulftown。常規Core i7和Extreme Edition都標榜為英特爾處理器評級中的5星。
+在該品牌的前三個世代中，Core i7的家族成員使用兩個不同的系統級架構，因此有兩個不同的插座（例如，LGA 1156和LGA 1366的Nehalem）。在每一代中，效能最高的Core i7處理器使用與該代中階Xeon處理器相同的插槽和QPI的架構，而效能較低的Core i7處理器使用Core i5相同的插槽和PCIe/DMI/FDI架構。
+「Core i7」是Core 2的繼承者。英特爾表示，因為英特爾未來會發布更新產品，所以他們打算用綽號Core i7幫助消費者決定購買哪種處理器。
+3 x DDR3
+PCIe
+2 x DDR3
+2011年初，英特爾推出了Sandy Bridge的新型微架構。這是Core處理器微架構的第二代。它保留了Core i3/i5/i7，並推出了新型號。最初的Sandy Bridge處理器包括雙核和四核變體，這些處理器都使用單個32奈米，包含了處理器和整合圖型處理器核心的裸片，不同於早期的微架構。所有Sandy Bridge微架構的Core i3/i5/i7處理器的編號都是四位數的。對於移動版本，功率不再能夠通過後綴的一個或兩個字母確定，而是編為處理器的編號。 從Sandy Bridge開始，英特爾不再根據核心數量，插槽或預期用途來區分處理器的代號；它們都使用與本身微架構相同的代碼名稱。
+Core i3，在2011年1月20日發布的。Core i3-2xxx系列直接替代了2010年的「Clarkdale」Core i3-5xx和「Arrandale」Core i3-3xxM型號。因為是新的微架構，所以需要新的插座和晶片組。Core i3的功能基本沒有改變，包括缺乏對Turbo Boost和AES-NI的支援。與Sandy Bridge微架構的Celeron和Pentium處理器不同，Core i3系列確實支援新的AVX。 這是全新英特爾處理器系列的入門級處理器。
+整合圖型處理器
+BGA-1023
+2011年1月，英特爾在CES 2011上發布了基於Sandy Bridge微架構的新型四核Core i5處理器。2011年2月推出了新的雙核移動處理器和桌上型電腦處理器。
+Core i5-2xxx系列桌上型處理器主要是四核的（除了雙核Core i5-2390T外），還包括整合顯示卡，結合了早期Core i5-6xx和Core i5-7xx的主要功能線。 四位數型號的後綴表示已解鎖的倍頻（K），低功率（S）和超低功率（T）。
+桌上型處理器現在都有四個非SMT核心（像之前的i5-750）（i5-2390T除外）。DMI匯流排以5 GT/s的速度運行。
+移動版的Core i5-2xxxM處理器都是像先前的Core i5-5xxM系列，擁有雙核和超執行緒晶片，並與該產品線共享大部分功能。
+整合圖型處理器
+BGA-1023
+Core i7，是英特爾桌上型和移動型處理器的高階產品（直到2017年i9發布為止）。Sandy Bridge微架構的Core i7具有最多的L3快取和最高的時脈。大多數的Core i7與其較小的Core i5非常相似。四核移動Core i7-2xxxQM/XM處理器遵循之前的「Clarksfield」Core i7-xxxQM / XM處理器，但現在還包括整合顯示卡。
+整合圖型處理器
+BGA-1023
+Ivy Bridge是英特爾開發的22奈米工藝的第三代處理器系列的代號。移動版本的CPU於2012年4月發布，隨後於2012年9月推出了桌上型處理器。
+Ivy Bridge微架構的Core-i3-3xxx系列是使用了22奈米的製程和有小幅升級的圖形處理器。
+整合圖型處理器
+BGA-1023
+整合圖型處理器
+BGA-1023
+整合圖型處理器
+Haswell是第四代Core處理器的微架構，於2013年發布。
+整合圖型處理器
+整合圖型處理器
+整合圖型處理器
+47 W
+47 W
+Broadwell是第五代Core處理器的微架構，於2014年9月6日發布，並於2014年底開始出貨。它是第一款使用14奈米製程的產品。此外，移動處理器於2015年1月推出，桌上型的Core i5和i7處理器於2015年6月發布。
+整合圖型處理器
+整合圖型處理器
+整合圖型處理器
+整合圖型處理器
+Skylake是第六代Core處理器的微架構，於2015年8月推出。作為Broadwell系列的後續產品，它採用相同的14奈米製程並重新設計。然而重新設計的製程具有更好的效能以及更低的功耗。英特爾還禁用了非K處理器超頻。
+整合圖型處理器
+整合圖型處理器
+整合圖型處理器
+Kaby Lake是第七代Core處理器的微架構，於2016年10月推出移動型和2017年1月推出桌上型。隨著新一代的微架構，英特爾決定不使用他們的「tick-tock」製造和設計模型生產Kaby Lake的微架構。Kaby Lake處理器也是採用與Skylake類似的14奈米製程生產。
+Kaby Lake採用改進的14 nm工藝（14FF +），具有更快的CPU時鐘速度，時鐘速度變化和更高的Turbo頻率。 除了這些過程和時鐘速度的變化之外，很少有CPU架構從Skylake改變，導致相同的IPC。
+Kaby Lake採用全新的圖形架構，可提高3D圖形和4K影片播放的效能。 它增加了原生HDCP 2.2支援，以及H.264，HEVC Main和Main10 / 10-bit以及VP9 10-bit和8-bit影片的固定功能解碼。硬體編碼支援H.264，HEVC Main10 / 10-bit和VP9 8-bit影片。硬體不支援VP9 10位編碼。 現在支援OpenCL 2.1。
+Kaby Lake是第一款支援奔騰桌上型處理器SKU超執行緒的核心架構。 Kaby Lake還配備了第一款支援超頻的i3。
+桌上型Kaby Lake處理器的功能：
+(執行緒)
+時鐘頻率
+快取
+(執行緒)
+時鐘頻率
+快取
+快取
+(執行緒)
+時鐘頻率
+快取
+快取
+(執行緒)
+時鐘頻率
+快取
+(eDRAM)
+2017年八月，Intel宣布 Kaby Lake Refresh微架構(Kaby Lake R）作為第八代行動處理器的架構。
+Coffee Lake 是第八代英特爾酷睿微架構，於2017年10月推出。為紀念Core架構發布10周年的產品，Coffee Lake 這一代產品的核心數量增加， 雖然具有類似前幾代的每時鐘效能，但與前幾代產品相比，效能得到一定改善。
+* 超執行緒 技術可以使一個核心執行兩個執行緒。
+Coffee Lake具有與Skylake / Kaby Lake相同的CPU核心和每MHz頻率。[6][7] 
+特性包括:
+(執行緒)
+2666
+2400
+Gold
+*B0步進的 i3-8100 和 Core i3-8350K 實際屬於"Kaby Lake-S" 系列
+(執行緒)
+2666
+ECC
+memory
+supported
+(執行緒)
+時鐘頻率
+快取
+(eDRAM)
+(USD)
+Whiskey Lake微架構是Intel第八代酷睿微架構，是Kaby Lake Refresh的改進版本，於2018年4月28日發布。
+Whiskey Lake微架構只有行動低壓處理器（U）。
+以下所有處理器TDP預設15W。
+(執行緒)
+時鐘頻率
+睿頻核心數
+時鐘頻率
+快取
+LPDDR3-2133
+LPDDR3-1866
+Cannon Lake 微架構(亦稱 Skymont)，是Kaby Lake微架構的繼承者，使用10nm製程製造，發布於2018年5月28日。
+[11]
+branding
+(執行緒)
+時鐘頻率
+時鐘頻率
+快取
+(USD)
+Coffee Lake Refresh微架構處理器發布於2018第四季度，該微架構也稱為 Coffee Lake R 微架構。[14]
+F結尾的的CPU封鎖了內建GPU[18]
+(執行緒)
+2666
+2400
+}
+* 有評測顯示 Core i9 9900K CPU 可能超過 140W 功率.[20][21][22][23]
+Ice Lake微架構[24]是Intel第十代處理器架構的代號。
+對外宣布日期：2019年5月COMPUTEX（台北國際電腦展）
+正式發布日期：(低壓U系列）2019年8月1日（超低壓Y系列）尚未發布
+Ice Lake首批面向輕薄型筆記本電腦，U系列、Y系列兩類，前者熱設計功耗28W或者15/25W，後者9/12W。[25]
+Intel第十代酷睿處理器不再沿用以往的命名規則，採用了新的命名體系：
+資料來源[26]
+
+Comet Lake微架構是Intel第十代處理器架構的代號。
+U(低壓筆記本)與Y系列(超低壓筆記本)[27]:
+發布時間:2019年8月21日
+發布地點:聖克拉拉
+[28]
+[29]
+該系列型號採用五位數SKU
+資料來源[30]
+本列表為Intel Core系列各處理器的技術資料，有關Intel Core 2系列各處理器的技術資料，請參閱Intel Core 2處理器列表。
+
+

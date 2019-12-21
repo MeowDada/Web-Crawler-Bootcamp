@@ -1,0 +1,10 @@
+號誌（英語：semaphore）又稱為旗號，是一個同步物件，用於保持在0至指定最大值之間的一個計數值。當執行緒完成一次對該semaphore物件的等待（wait）時，該計數值減一；當執行緒完成一次對semaphore物件的釋放（release）時，計數值加一。當計數值為0，則執行緒等待該semaphore物件不再能成功直至該semaphore物件變成signaled狀態。semaphore物件的計數值大於0，為signaled狀態；計數值等於0，為nonsignaled狀態.
+semaphore物件適用於控制一個僅支援有限個用戶的共享資源，是一種不需要使用忙碌等待（busy waiting）的方法。
+號誌的概念是由荷蘭電腦科學家艾茲赫爾·戴克斯特拉（Edsger W. Dijkstra）發明的，廣泛的應用於不同的作業系統中。在系統中，給予每一個行程一個號誌，代表每個行程目前的狀態，未得到控制權的行程會在特定地方被強迫停下來，等待可以繼續進行的訊號到來。如果號誌是一個任意的整數，通常被稱為計數號誌（Counting semaphore），或一般號誌（general semaphore）；如果號誌只有二進位的0或1，稱為二進位號誌（binary semaphore）。在linux系統中，二進位號誌（binary semaphore）又稱互斥鎖（Mutex）。
+計數號誌具備兩種操作動作，稱為V（signal()）與P（wait()）（即部分參考書常稱的「PV操作」）。V操作會增加訊號標S的數值，P操作會減少它。
+運作方式：
+執行緒使用CreateSemaphore或CreateSemaphoreEx函式建立一個semaphore物件[1]。此時可以指定semaphore的目前計數值與計數值上限；也可指定semaphore物件的名字。其他行程中的執行緒可以指出已存在的semaphore物件的名字通過呼叫OpenSemaphore函式開啟它。
+如果多個執行緒在等待一個semaphore物件，不保證按照先進先出（FIFO）順序排程這些等待執行緒。外部事件，如核心模式的非同步過程呼叫可改變等待順序。
+在semaphore物件為signaled狀態時，等待函式返回會把該semaphore物件計數值減1。函式ReleaseSemaphore把semaphore物件的計數值增加指定的值。任何執行緒，哪怕它沒有等待完成過該semaphore物件，也可以使用ReleaseSemaphore來增加semaphore物件的計數。如果ReleaseSemaphore導致物件計數值超過上限，則該函式呼叫失敗，返回298號錯誤：「Too many posts were made to a semaphore」。
+一個執行緒多次等待同一個semaphore物件，每次等待操作完成都會降低semaphore物件計數值（直至計數值為0時該執行緒阻塞）。然而，通過multiple-object等待函式使用一個陣列包含著同一個semaphore物件的多個控制代碼，不能實現對這個semaphore物件計數值的多次下降。
+用完semaphore物件後，呼叫CloseHandle函式關閉它。semaphore物件的最後一個控制代碼被關閉後，作業系統會摧毀它。關閉semaphore並不影響它的計數值。因此，關閉semaphore前或者行程終止前，要確保已經正確呼叫過ReleaseSemaphore。否則，掛起等待該semaphore物件的執行緒會永久阻塞或超時返回。

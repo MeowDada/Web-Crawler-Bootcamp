@@ -1,0 +1,1 @@
+SunOS是一個版本的Unix作業系統,由昇陽電腦開發給他們的工作站及伺服器電腦系統。SunOS的名稱通常都只包括1.0至4.1.4版本的SunOS，這些版本都是基於BSD Unix。由SunOS 5.0版本開始，改為基於UNIX System V Release 4，同時改名為Solaris。

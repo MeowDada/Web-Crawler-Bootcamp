@@ -1,0 +1,20 @@
+Windows作業系統應用程式介面（Windows API），有非正式的簡稱法為WinAPI，是微軟對於Windows作業系統中可用的核心應用程式編程介面的稱法。它被設計為各種語言的程式呼叫，也是套用軟體與Windows系統最直接的互動方式。大多數驅動程式需要對Windows系統更底層次存取介面，由所用版本的Windows的Native API來提供介面。
+Windows有一個軟體開發套件（SDK, software development kit）提供相應的文件和工具，以使程式設計師開發使用Windows API的軟體和利用Windows技術。
+Windows API總會為程式設計師提供大量的構建不同 Windows 的底層結構，這有助於為 Windows 程式設計師開發應用程式提供大量的靈活性和功能。但是，它同樣使 Windows 套用程式要負責處理大量底層且有時是繁瑣的與圖形化使用者介面（GUI）相關的操作。
+Charles Petzold——許多有關Windows API的暢銷書的作者，曾經說過：[1]
+常用的例子程式Hello world程式，通常是用來示範一個系統上最簡單的程式（即在螢幕上印出一行"Hello World"）。
+這些年來，Windows 作業系統已經今非昔比，而Windows API也隨之改變和成長並反映出這種變化。Windows API的Windows 1.0版本只提供不到450個函式調用（Subroutine），而現在的版本提供上千個。然而，整體而言，Windows介面保持了相當好的一致性，古老的Windows 1.0程式對習慣於現在版本Windows API的程式設計師也並不陌生。[2]
+微軟特別強調維持軟體的向下相容性。為了實現此一目標，有時微軟甚至不惜支援使用了非官方乃至（編程上）非法的API的軟體。Raymond Chen，一位致力於Windows API的Windows開發者，曾提及他：[3]
+Windows API所提供的功能可以歸為七類：[4]
+Internet Explorer網頁瀏覽器也提供許多程式介面[13]，提供以下介面：
+和Windows的郵件功能相關的API，例如位址本和郵件API，在Windows 7取消郵件功能之後也隨之從Windows API中去除。由於Windows Mail在Windows Vista上取代了Outlook Express，對應的API也隨之變化。
+自從Windows 95 OSR2以來，Microsoft把DirectX API作為Windows安裝的一部份。DirectX提供一組鬆散相關的多媒體和遊戲服務，包括：
+Windows API的功能主要通過使作業系統和應用程式之間的互動來實現。為了實現不同Windows應用程式的通信，微軟隨著主要Windows API，推出一系列的技術。最初的DDE（Dynamic Data Exchange）升級為物件連結與嵌入（Object Linking and Embedding），再後來是組件物件模型（COM）。
+微軟利用許多更底層的Windows API函式，開發出許多封裝媒體櫃（wrapper），讓應用程式以更抽象的方式與Windows API進行互動。MFC（Microsoft Foundation Class Library）用C++ 類別來封裝Windows API的功能，因而允許用更為物件導向的方式與API進行互動。ATL（Active Template Library）是對COM的面向範本（template oriented）的封裝。WTL（Windows Template Library）作為ATL的增強，被用來作為MFC的輕型的替代物。
+其他著名的封裝媒體櫃是Borland公司的產品，為了與MFC競爭而推出的OWL（Object Windows Library）提供了類似的物件導向封裝。不久Borland又推出VCL（Visual Component Library）來取而代之。
+大多數的Windows 程式框架（application framework）是對Windows API的封裝，因而.NET Framework、Java以及其他在Windows下的程式語言，都是（或者包含）封裝媒體櫃。
+儘管微軟的Windows API實現有著作權保護，但被普遍認可的是，根據美國的法律先例，其他廠商仍然可以通過提供一致的API來類比Windows，而不會侵犯著作權。
+Wine是為Unix類平台提供Win32 API相容層的嘗試。ReactOS走得更遠，提供了整個Windows作業系統的類比，與Wine專案緊密結合，以便促進程式碼重用和相容。HX DOS-Extender是另一個類比Windows API的專案，允許通過DOS命令行來執行簡單的Windows程式。
+為了開發使用Windows API的軟體，編譯器必須能處理和匯入微軟相關的DLLs或者COM物件。編譯器必須接受一種C或C++方言，或者能夠處理揭示了內部API函式名稱的介面定義語言（Interface description language）檔案和標頭檔及生成的類型媒體櫃（Type Library）。概括而言，這些預備條件（編譯器、開發工具、媒體櫃和標頭檔）被統稱為Microsoft Platform SDK。很長時間以來，包含了編譯器和開發工具的專利產品如Microsoft Visual Studio系列和Borland編譯器（儘管至少在Windows下，SDK是可以從整個IDE環境中剝離出來單獨免費下載的，據Microsoft Platform SDK Update），是僅有的能提供整套開發環境的選擇。如今MinGW和Cygwin也能提供一套這樣的開發環境——是基於採用一種獨立標頭檔集合來保證能與微軟DLL連接的GCC。LCC-Win32是由Jacob Navia維護的一種「非商業用途免費」的C編譯器。Pellesc是由Pelle Orinius維護的一種免費C編譯器。MASM32是一個成熟的專案，它通過自製或由SDK平台轉換的標頭檔和媒體櫃，並利用32位元微軟組譯器來實現支援Windows API。
+微軟相關的編譯器支援也是例外處理（Structured Exception Handling）特性所需要的。這個體制有雙重目的：它提供了語言相關的例外處理賴以實現的基礎，同時也是核心藉以通知程式發生諸如解除一個非法指標的參照或堆疊溢位之類異常狀況的管道。甫一被引入Windows 95和NT，微軟／Borland C++編譯器就有使用這種體制的能力，然而實際實現未被公開，而且必須經過反向工程方可用於Wine專案和免費編譯器。SEH的執行機制是先把異常的控制代碼推入堆疊，繼而將它們添加到儲存於執行緒本機資源（即執行緒環境塊的首欄位）的一個連結串列里。事實上，每一個未有程式本身處理的異常，都將由會彈出常規Windows崩潰對話方塊的預設backstop處理器處理。
+API在Visual Basic中的實現範例（這個簡化的例子使得使用者可以讓命令按鈕在表單上四處移動）：

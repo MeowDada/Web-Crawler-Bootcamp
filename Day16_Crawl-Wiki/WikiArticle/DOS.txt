@@ -1,0 +1,38 @@
+DOS，是磁碟作業系統（英文：Disk Operating System）的縮寫，是個人電腦上的一類作業系統。從1981年直到1995年的15年間，DOS在IBM PC相容機市場中佔有舉足輕重的地位。而且，若是把部份以DOS為基礎的Microsoft Windows版本，如Windows 95、98和Me等都算進去的話，那麼其商業壽命至少可以算到2000年[來源請求]。
+DOS家族包括MS-DOS、PC-DOS、DR-DOS、FreeDOS、PTS-DOS、ROM-DOS、JM-OS等，其中以MS-DOS最為著名。雖然這些系統常被簡稱為"DOS"，但沒有任何一個系統單純以"DOS"命名（只有一個毫無關連的1960年代IBM大型主機作業系統以此命名）。此外，有幾個和DOS無關、在非x86的微電腦系統上執行的磁碟作業系統在名稱中也有"DOS"字眼，而且在專門討論該機器的場合中也會簡稱為"DOS"（例如：AmigaDOS、AMSDOS、ANDOS、Apple DOS、Atari DOS、Commodore DOS、CSI-DOS、ProDOS、TRS-DOS等），但這些系統和DOS執行檔以及MS-DOS API並不相容。
+所有DOS類的作業系統都是在使用Intel x86或其相容CPU的機器上運行的（主要是IBM PC及其相容機）。最早的時候，DOS並未受限於此；為了在許多以x86為基礎，但和IBM PC不相容的機器上運行，產生了不少特定機器版本的DOS及類似的作業系統。[1]
+DOS是單一使用者、單工的作業系統，擁有不可重入的基本核心函式（意即同時間只能有一個程式呼叫這些函式）。有一個例外的狀況，就是常駐程式（Terminate and Stay Resident，縮寫為TSR）。某些常駐程式允許使用者多工操作；然而此時仍有「核心不可重入」的問題：當一個行程（process）呼叫了作業系統核心中的服務函式（也就是系統呼叫）時，在這個呼叫結束之前，其他的行程絕對不能進行系統呼叫、打斷第一個行程。[2]
+DOS的核心為使用者程式提供了各式各樣的函式，例如：在螢幕上顯示文字、從鍵盤讀入字元、存取磁碟上的檔案等等。
+DOS透過批次檔（副檔名為.BAT）提供介面指令碼的功能。這些檔案是純文字格式的，可以用任何的文字編輯器（像是edit.com）編輯。他們執行起來和編譯而成的程式沒有兩樣。檔案中的每一行都被視為命令來執行。批次檔也可以使用數個內部命令，例如goto和條件運算式。[3]
+DOS提供了簡單的硬體抽象層，讓程式員可以開發文字介面的應用程式；但這個硬體抽象層無法存取大部份的計算機硬體，像是顯示卡、印表機，或是滑鼠等。這使得程式員必須直接存取硬體，導致每個應用程式都有屬於自己的一組硬體週邊驅動程式。硬體製造商會將他們的硬體規格書釋出，以確保在受歡迎的應用程式中有它們的驅動程式。[4]
+在DOS中，有數個名稱保留給裝置使用，無法拿來當一般檔案的名稱（不管副檔名是什麼）；這些保留名稱是用來將應用程式的輸出傳送給硬體週邊用的。這樣的限制也影響到數個版本的Windows，在某些情況下甚至會造成當機和安全性弱點。[5]
+其中一些保留名稱有：NUL:、COM1:或AUX:、COM2:、COM3:、COM4:、CON:、LPT1:或PRN:、LPT2:、LPT3:，以及CLOCK$。[6]
+在DOS中，磁碟機是利用不同的字母命名的。標準的作法是保留"A"和"B"給軟碟機。若是系統只有一台軟碟機的話，DOS允許這台軟碟機同時使用這兩個代號，然後DOS會要求使用者更換磁片。這麼做可以讓使用者把檔案拷貝到不同的軟碟片上，或是執行某一片軟碟片上的程式，然後把資料檔案存放在另一片軟碟片上。最早硬碟的代號為"C"和"D"。在一台硬碟機上，DOS只允許一個活動分割區的存在。隨著支援的硬碟數量越來越多，磁碟代號的命名方法演變為：先將磁碟代號指派給每一顆硬碟機的活動主分割區，然後第二輪將代號指派給延伸分割區中的邏輯磁碟區，第三輪再把代號指定給非活動的主分割區。（前題是：它們存在，而且包含了DOS可以讀取的檔案系統。）最後，DOS才將代號指派給光碟機、RAM disk，以及其他的硬體。一般來說，磁碟代號都是依照驅動程式的載入順序，按字母順序指派的，但驅動程式也可以要求DOS指派不同的字母。例如網路磁碟機的驅動程式通常會指派最後的幾個字母。[7]
+因為DOS的應用程式會直接使用這些磁碟代號（和Unix類系統使用／dev目錄的方法不同），因此若是新增了需要分配磁碟代號的硬體，可能會導致這些應用程式出錯。舉例來說：若是原本硬碟中的延伸分割區中存在邏輯磁碟區，此時新增一顆有主分割區的硬碟的話，由於主分割區擁有較高的分配優先權，所以原本硬碟的邏輯磁碟區的代號就會改變。此外，就算是新增一顆只有延伸分割區和邏輯磁碟區的硬碟，還是會影響到RAM disk及光碟機的代號。這個問題一直到9x系列的Windows都仍然存在；NT系列才有解決方案：磁碟代號會保留給已存在的磁碟機機，除非使用者手動更改。[7]
+PC相容機的啟動磁區（MBR）位於第 0 磁區。對於DOS來說，這段代碼會將DOS的HAL讀入記憶體中然後執行。在DR DOS及PC DOS中，這個HAL放在IBMBIO.COM檔案中；而MS DOS則是放在IO.SYS。接下來這個HAL會載入位於IBMDOS.COM（PC DOS或DR DOS）或是MSDOS.SYS（MS DOS）裡面的DOS核心。Windows 9x中附的DOS版本（MS DOS 7和8）將HAL和核心合併放在IO.SYS裡面，而MSDOS.SYS則是文字格式的組態檔案。然後DOS核心會去執行CONFIG.SYS這個檔案。在CONFIG.SYS中，SHELL這個命令指定了SHELL的檔案位置（通常是COMMAND.COM）。接下來這個SHELL會被執行，然後它會去開啟開機啟動項（通常是AUTOEXEC.BAT）[8]
+MS-DOS（以及經授權更換商標而成的IBM PC-DOS）以及它的前身86-DOS是受到Digital Research公司的CP/M（Control Program / (for) Microcomputers）啟發而完成的。CP/M是當時使用Intel 8080及Zilog Z80這兩顆8位元CPU的微電腦上最受歡迎的磁碟作業系統。
+在1980年的時候，IBM使用Intel 8088微處理器，開發出了他們的第一台微電腦。他們需要一套能夠在這台微電腦上使用的作業系統。IBM在找一套能和Intel 8088 (1979-1982)相容的CP/M，一開始找上了微軟（Microsoft）的執行長比爾·蓋茲（可能是因為當時微軟開發出了讓CP/M可以在Apple II上執行的Z-80 SoftCard，所以IBM相信微軟擁有CP/M[9]）。IBM被轉介到Digital Research，並且舉行了相關的會議。然而，關於CP/M的使用權的初次談判破裂了—因為Digital Research希望以權利金的方式販售CP/M，但IBM希望單一授權，並且將名稱改為"PC-DOS"。DR的創始人Gary Kildall拒絕簽約，IBM因此放棄購買CP/M。[9][10]
+IBM再次找上比爾·蓋茲。蓋茲轉而找上了Seattle Computer Products（SCP）。SCP的程式員Tim Paterson開發了一套CP/M-80的變體作業系統，原本是打算用來測試SCP為S-100匯流排新開發的16位元Intel 8086 CPU介面卡。這套系統原本的名稱是"QDOS"（"Quick and Dirty Operating System"的縮寫），後來在商業發行前改名為86-DOS。微軟買下了86-DOS（據說成交金額為50,000美元），後來成了1981年發行的Microsoft Disk Operating System，簡稱MS-DOS。[11]
+微軟也將這套系統授權給數個電腦公司。這些電腦公司販售給他們的硬體使用的MS-DOS，有時使用他們自己的名稱。微軟後來要求他們使用MS-DOS這個名稱，除了IBM以外。IBM持續為IBM PC開發新版的PC-DOS。Digital Research查覺到IBM正在販售和CP/M很類似的作業系統（而且還跟當初IBM談判時堅持的名稱相同），於是揚言要提出法律訴訟。IBM以一項協定回應他們：IBM讓使用者可以自行選擇要使用PC-DOS還是CP/M-86（Kildall開發的8086版CP/M）。兩者相較，CP/M比PC-DOS貴上近200美元，銷售量也低。CP/M逐漸淡出，而MS-DOS和PC-DOS則成了PC和PC相容機的主力作業系統。[9]
+Digital Research曾試圖挽回CP/M-86錯失的市場。一開始是發行了DOS Plus，後來又發行了DR-DOS（這兩者都同時與MS-DOS和CP/M-86的軟體相容）。Digital Research被Novell買下，DR-DOS變成了Novell DOS 7。之後，它又成為Caldera Systems（以OpenDOS及DR DOS 7為名）、Lineo以及DeviceLogics的一部份。
+後來，微軟和IBM在兩套DOS的繼任作業系統（微軟的Windows和IBM的OS/2）上發生了一連串爭執。[12]他們在DOS系統上的開發也因此分道揚鑣。[13] MS-DOS在某些層面上轉型成為Windows；而PC-DOS的最後一個版本為1998年發行的PC-DOS 2000。
+FreeDOS計劃開始於1994年6月26日。當天微軟宣布他們將不再販賣MS-DOS，也不再提供支援。於是Jim Hall張貼了一份宣言，宣布要開發DOS的開放源始碼替代品。在幾個星期內，包括Pat Villani和Tim Norman的幾位程式員加入了這個計劃。他們利用共享他們撰寫或現有程式碼的方式，產生了核心、command.com命令直譯器（shell介面）以及核心公用程式。在歷經了數個版本的官方預覽版本之後，FreeDOS 1.0版在2006年9月3日正式發布。使用FreeDOS不需支付任何的著作權費用或權利金。[14][15]
+
+早期版本的Microsoft Windows只是在DOS之上執行的應用程式。[16]大約在90年代初，Windows仍相當依賴新版本的DOS。一直到Windows for Workgroups 3.11，DOS才逐漸退居負責啟動及載入Windows核心的角色。在Windows 95（以及其後發生的Windows 98與Me）中，MS-DOS核心依然存在，只是加上Windows當作系統的圖型介面。Windows 95與98的MS-DOS元件可以在不開啟Windows的情況下獨立執行（但Windows Me不行）。[17]隨著Windows的普及，大部份的電腦使用者都使用Windows，DOS也越來越少人使用。英特爾計畫於2020年徹底捨棄Intel平台的UEFI CSM（即UEFI的Legacy BIOS啟動支援），屆時Intel平台的個人電腦將無法啟動DOS系統。
+有些電腦製造商（包括Dell和HP）會預載FreeDOS當作OEM作業系統出貨。[18][19]
+有一套以GPL方式授權的DOS，名為NX-DOS，目前正在開發中。它是一套16位元的即時作業系統，擁有網路功能，可以從軟碟片啟動，還有一個不太完整的USB驅動程式。NX-DOS專案從1992年就開始了，原本是個個人專案，在2005年的時候以GPL方式釋出。[20]
+目前仍可取得的DOS系統有DR-DOS（以及加強的DR-DOS）、俄國人開發的PTS-DOS、ROM-DOS、FreeDOS、NX-DOS、Multiuser DOS（以Digital Research的Concurrent DOS為基礎）....等等。
+由於DOS可以直接存取硬體，因此它很適合拿來控制嵌入式裝置。新版本的DR-DOS便瞄準了這塊市場。[21] 佳能的數位相機PowerShot Pro 70使用ROM-DOS做為嵌入式系統。[22]
+在Linux下，使用DOSEMU（一套用來執行真實模式程式的Linux原生虛擬機器）可以執行DOS及其衍生版本。另外在各個版本的UNIX下也有許多用來執行DOS的模擬器，有些甚至在非x86的平台上也可以執行，像是DOSBox。[23][24]
+由於Windows XP和Vista無法和純DOS相容，DOS模擬器在這些系統上也越來越流行。這些模擬器可以用來執行過去的老軟體或其他DOS軟體。其中一個最為知名的是DOSBox，主要的設計目標是在當前的作業系統上執行DOS的遊戲程式。[23][16]
+在Microsoft Virtual PC下也可以執行DOS的應用程式，相容性比DOS模擬器好。使用者可以安裝合法的MS-DOS，然後除了那些最難對付的應用程式以外，絕大部份的DOS應用程式都可以在上面執行。[25]
+純32位元版本的Windows（從NT開始；包含了2003、XP和Vista）並非以DOS為基礎的。這些系統中內含了一個NT DOS虛擬機器（NT Virtual DOS Machine，縮寫為NTVDM），在上面執行一個修改過的DOS。原本以DOS為基礎的系統使用傳統的COMMAND.COM做為命令列介面，而Windows NT及其衍生版本則是使用cmd.exe（不過cmd.exe也移植了許多DOS的命令）。x64架構的Windows也有cmd.exe（命令提示字元），但是無法執行16位元DOS程式（沒有NTVDM）。
+由於DOS在長時間內是PC相容機的主要平台，有許多為DOS撰寫的知名軟體。例如：
+所有的DOS均使用命令列介面。執行程式的方法是在命令列中鍵入程式的名稱。DOS系統包含一些公用程式，也提供了一些不是以程式方式存在的命令（通常被稱為內部命令）。[27]
+為了提供對使用者更友善的操作環境，許多的軟體廠商紛紛推出各式各樣的檔案管理程式。這些程式通常使用選單及圖示做為介面。Microsoft Windows就是其中最有名的例子，最後發展成為完整的作業系統，取代DOS成了PC相容機上最受歡迎的作業系統。使用文字模式的使用者界面有：Norton Commander、Dos Navigator、Volkov Commander、Quarterdesk的DESQview，以及SideKick。使用圖形使用者介面的程式有：Digital Research的Graphical Environment Manager（最早是寫給CP/M用的）以及GEOS。
+發展到最後，主要的DOS廠商開始在DOS中加入自己的環境管理程式。MS/PC-DOS 4中有DOS Shell；[28]而次年發行的DR-DOS 5則加入了以GEM為基礎的ViewMAX。[29]
+在最初的設計中，DOS是一個單工的作業系統。MS/PC-DOS使用DOS shell做到工作切換的功能，[30]而DR-DOS則是在DR-DOS 6中利用TaskMAX做到類似的功能。[31] MS/PC-DOS自始至終都沒有多工的能力；[32] DR-DOS則是在DR-DOS 7中提供了這個功能（DR-DOS的DPMI必須啟用）。[33]
+DOS的架構有數項惱人的限制。最早的8088微處理器只能定址到1 MB的實體記憶體空間。由於附加的硬體裝置也必須對映到這段空間，因此最高可以使用的記憶體只有640 KB（被稱為「傳統記憶體」）。在DOS的結構上，640 KB被視為最大的記憶體空間，DOS無法定址更高的位址。早期避開這個問題的做法是使用擴展記憶體；80286出來之後，發展出了延伸記憶體。雖然這些技術提供了更多的記憶體應用程式，但應用程式仍必須從傳統記憶體開始執行，佔用640 KB中的部份空間。80386微處理器使用了重新設計的保護模式，應用程式可以透過DOS extender及DOS保護模式介面（DOS Protected Mode Interface，縮寫為DPMI）等技術使用額外的記憶體，也可以有多工的功能。[34][35]
+DOS還有硬碟分割區大小的限制。造成這個問題的原因有兩個。首先，許多DOS類的作業系統只支援到FAT16，而FAT16在設計上就不支援超過2.1 GB的硬碟分割區。[36]另外，DOS存取硬碟的方式是透過INT 13這個中斷呼叫，然後往下再利用CHS系統對應到磁碟上的資料。在這個架構下，作業系統只能看到8 GB的硬碟空間。[37]比較新的作業系統使用軟體的方式（例如：32位元磁碟存取）存取硬碟。
+FAT16和FAT12（用於軟碟片）上的檔案名稱必須遵守「8.3命名規則」：檔案的主檔名不得超個8個字元，而副檔名則不得超過3個字元。
+（部分）
