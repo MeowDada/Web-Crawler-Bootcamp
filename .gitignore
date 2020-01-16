@@ -1,3 +1,7 @@
 /*/.ipynb_checkpoints
 /*/data
 /*/downloads
+*.pyc
+*.json
+*.png
+*.exe
